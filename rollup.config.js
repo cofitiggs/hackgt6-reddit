@@ -4,7 +4,7 @@ import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
 
 export default {
-  input: 'app.js',
+  input: `${process.env.DIR || 'step-0'}/app.js`,
   output: {
     file: 'public/bundle.js',
     name: 'App',

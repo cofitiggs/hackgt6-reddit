@@ -1,0 +1,12 @@
+TO RUN EACH STEP:
+You'll be working inside of the "step-0" directory to start.
+To start the website, run the following command in your terminal:
+npm run start-step-0
+
+If we move on to the next step and you want to use my code instead to catch up, you can run the following:
+Control key + C (^C) to stop the currently running process
+npm run start-step-1
+
+In this case, we stop running step-0 and start running step-1.
+From here, you would start working in the "step-1" directory.
+If you feel like you're caught up and don't need my code, just keep working in the "step-0" directory!
