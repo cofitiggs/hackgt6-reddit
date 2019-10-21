@@ -1,6 +1,7 @@
 <script>
   export let title = ''
   export let content = ''
+  export let author = ''
   export let votes = 0
 </script>
 
@@ -38,6 +39,7 @@
   </div>
   <div>
     <h1>{title}</h1>
+    <p>{author}</p>
     <p>{content}</p>
   </div>
 </section>
