@@ -30,7 +30,7 @@
     align-items: center;
   }
   .space-wide {
-    flex: 1; /* use flex to say how much fractional space an element should take up. Apply this class to multiple elements and see what happens!*/
+    flex: 1; /* use flex to say how much fractional space an element should take up. Apply this class to multiple elements and see what happens! */
   }
 </style>
 
