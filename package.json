@@ -18,6 +18,7 @@
     "start-step-1": "rollup -c rollup.config.js --environment DIR:step-1 --watch",
     "start-step-2": "rollup -c rollup.config.js --environment DIR:step-2 --watch",
     "start-step-3": "rollup -c rollup.config.js --environment DIR:step-3 --watch",
-    "start-step-4": "rollup -c rollup.config.js --environment DIR:step-4 --watch"
+    "start-step-4": "rollup -c rollup.config.js --environment DIR:step-4 --watch",
+    "start-step-5": "rollup -c rollup.config.js --environment DIR:step-5 --watch"
   }
 }
