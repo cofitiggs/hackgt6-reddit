@@ -21,7 +21,6 @@
       votes: 40,
     },
   ]
-  console.log(posts)
 </script>
 
 {#each posts as post}
