@@ -18,11 +18,13 @@
     let options = {
       method: 'POST', // to specify that we want to post something to the database
       body: JSON.stringify(updates), // put the content we want to add in the body. Turn it into a string in order to send!
+      headers: {
+        'Content-Type': 'application/json',
+      },
     }
-    fetch(
-      'https://hackgt6-reddit-backend.bholmesdev.workers.dev',
-      options
-    ).catch(err => console.error(err)) // log if something bad happens
+    fetch('https://hackgt-reddit.now.sh', options).catch(err =>
+      console.error(err)
+    ) // log if something bad happens
   }
 
   const upvote = () => {
