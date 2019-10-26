@@ -1,3 +1,7 @@
+REFERENCE MATERIALS
+- For a list of all the essential HTML tags and what they do: https://www.notion.so/Intro-to-HTML-b76e8f767a8f428989e68d7c09fd4dc3
+- For an in-depth rundown of Flexbox properties: https://www.notion.so/Intro-to-HTML-b76e8f767a8f428989e68d7c09fd4dc3
+
 TO RUN EACH STEP:
 You'll be working inside of the "step-0" directory to start.
 To start the website, run the following command in your terminal:
